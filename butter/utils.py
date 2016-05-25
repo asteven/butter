@@ -9,7 +9,7 @@ import errno
 
 import platform
 
-from _utils_c import lib
+from ._utils_c import lib
 
 # Hack to backport PermissionError to older python versions
 if platform.python_version_tuple() < ('3', '0', '0'):
